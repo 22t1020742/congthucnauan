@@ -8,7 +8,7 @@ import '../models/auth_response.dart';
 class ApiService{
   //Android: http://192.168.1.7:8080/api
   //Web: http://localhost:8080/api
-  static const String baseUrl = 'http://192.168.1.25:8080/api';
+  static const String baseUrl = 'http://172.20.10.3:8080/api';
   
   Future<String?> getToken() async {
     final prefs = await SharedPreferences.getInstance();
